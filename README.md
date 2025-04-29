@@ -26,7 +26,7 @@ This project uses a feedforward Artificial Neural Network (ANN) built with PyTor
 
 The model is a feedforward Artificial Neural Network (ANN) designed to classify Seattle weather conditions. It consists of:
 
-- **Input Layer**: 4 features (temperature, precipitation, wind speed, and humidity).
+- **Input Layer**: 4 features (max temperature, min temperature, precipitation, and wind speed).
 - **Hidden Layer 1**: 16 neurons with Batch Normalization and ReLU activation.
 - **Hidden Layer 2**: 8 neurons with Batch Normalization and ReLU activation.
 - **Output Layer**: A softmax layer with 5 neurons corresponding to the target classes: `drizzle`, `fog`, `rain`, `snow`, and `sun`.
