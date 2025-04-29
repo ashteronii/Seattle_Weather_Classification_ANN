@@ -50,12 +50,15 @@ Confusion matrix and classification report are plotted after training.
    ```bash
    git clone https://github.com/yourusername/seattle-weather-ann.git
    cd seattle-weather-ann
+   ```
 2. Install required libraries:
    ```bash
    pip install pandas scikit-learn torch matplotlib
+   ```
 3. Run the script:
    ```bash
    python main.py
+   ```
 
 ---
 
