@@ -14,8 +14,10 @@ This project uses a feedforward Artificial Neural Network (ANN) built with PyTor
 
 ## Project Structure
 
+- `Seattle_Weather_Classification_ANN.py`: Model training and evaluation script.
 - `Seattle_Weather_Cleaned.csv`: Cleaned dataset used for training.
-- `main.py`: Core training and evaluation script.
+- `Seatle_Weather_Cleaned.py`: Data cleaning script.
+- `seattle-weather.csv`: Raw dataset from Kaggle.
 - `README.md`: This file.
 
 ---
