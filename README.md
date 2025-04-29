@@ -50,13 +50,12 @@ Confusion matrix and classification report are plotted after training.
    ```bash
    git clone https://github.com/yourusername/seattle-weather-ann.git
    cd seattle-weather-ann
-2. Create and activate a virtual environment (optional, but recommended):
+2. Install required libraries:
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-3. Install the required dependencies:
+   pip install pandas scikit-learn torch matplotlib
+3. Run the script:
    ```bash
-   pip install -r requirements.txt
+   python main.py
 
 ---
 
