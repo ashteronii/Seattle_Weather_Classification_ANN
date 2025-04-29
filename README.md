@@ -7,7 +7,7 @@ This project uses a feedforward Artificial Neural Network (ANN) built with PyTor
 ## Dataset
 
 - Ananth R. (2022). *WEATHER PREDICTION*. Kaggle. https://www.kaggle.com/datasets/ananthr1/weather-prediction
-- The dataset contains historical weather data for Seattle and was cleaned prior to training.
+- The dataset contains historical weather data for Seattle.
 - Target classes include: `drizzle`, `fog`, `rain`, `snow`, and `sun`.
 
 ---
