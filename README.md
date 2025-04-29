@@ -6,7 +6,7 @@ This project uses a feedforward Artificial Neural Network (ANN) built with PyTor
 
 ## Dataset
 
-- Ananth R. (2022). *weather-prediction*. Kaggle. https://www.kaggle.com/datasets/ananthr1/weather-prediction
+- Ananth R. (2022). *WEATHER PREDICTION*. Kaggle. https://www.kaggle.com/datasets/ananthr1/weather-prediction
 - The dataset contains historical weather data for Seattle and was cleaned prior to training.
 - Target classes include: `drizzle`, `fog`, `rain`, `snow`, and `sun`.
 
@@ -50,6 +50,13 @@ Confusion matrix and classification report are plotted after training.
    ```bash
    git clone https://github.com/yourusername/seattle-weather-ann.git
    cd seattle-weather-ann
+2. Create and activate a virtual environment (optional, but recommended):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
 
 ---
 
